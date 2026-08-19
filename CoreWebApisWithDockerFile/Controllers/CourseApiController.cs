@@ -33,7 +33,7 @@ namespace CoreWebApisWithDockerFile.Controllers
         }
         [HttpGet]
         [Route("api/secondapi")]
-        public string  SampleGetApi()
+        public string  SecondGetApi()
         {
             return "Welcome to Second Api";
         }
